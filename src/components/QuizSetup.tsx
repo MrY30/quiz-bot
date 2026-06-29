@@ -13,7 +13,7 @@ export const QuizSetup: React.FC = () => {
 
   useEffect(() => {
     // Load the JSON file
-    fetch('/quiz_files/ccna_001_438.json')
+    fetch(`${import.meta.env.BASE_URL}quiz_files/ccna_001_438.json`)
       .then(res => res.json())
       .then(data => {
         if (data && data.questions) {

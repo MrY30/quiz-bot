@@ -10,7 +10,7 @@ export const ImageViewer: React.FC<ImageViewerProps> = ({ src }) => {
   return (
     <div style={{ marginBottom: '24px', display: 'flex', justifyContent: 'center' }}>
       <img 
-        src={`/${src}`} 
+        src={`${import.meta.env.BASE_URL}${src}`} 
         alt="Question visualization" 
         style={{
           maxWidth: '100%',
