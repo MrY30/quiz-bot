@@ -1,0 +1,1470 @@
+{
+  "title": "CCNA (200-301) 001-438",
+  "description": "CCNA Networking Exam",
+  "questions": [
+    {
+      "id": 336,
+      "type": "multiple_choice",
+      "question": "When configuring a WLAN with WPA2 PSK in the Cisco Wireless LAN Controller GUI, which two formats are \navailable to select? (Chooese two).",
+      "image": null,
+      "details": {
+        "choices": ["hexadecimal", "ASCII", "base64", "binary", "decimal"],
+        "correct": [0, 1]
+      }
+    },
+    {
+      "id": 337,
+      "type": "multiple_choice",
+      "question": "R1 has learned route 10.10.10.0/24 via numerous routing protocols. WHich route is installed?",
+      "image": null,
+      "details": {
+        "choices": [
+          "route with the shortest prefix length",
+          "route with the lowest administrative distance",
+          "route with the lowest cost",
+          "route with the next hop that has the highest IP"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 338,
+      "type": "multiple_choice",
+      "question": "which two spanning-tree states are bypassed on an interface running PortFast? (Choose two).",
+      "image": null,
+      "details": {
+        "choices": [
+          "disabled",
+          "blocked",
+          "listening",
+          "learning",
+          "forwarding"
+        ],
+        "correct": [2, 3]
+      }
+    },
+    {
+      "id": 339,
+      "type": "multiple_choice",
+      "question": "Which cable type must be used when connecting a router and switch together usmg thses:\n1. Pins 1 and 2 are receivers and pins 3 and 6 are transmitters\n2. Auto detection MDI-X is unavilable.",
+      "image": null,
+      "details": {
+        "choices": ["straight-through", "console", "crossover", "rollover"],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 340,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. An engineer must configure the interface that connects to PC1 and secure it in a way that \nonly PC1 is allowed to use the port. No VLAN tagging can be used except for a voice VLAN. Which command \nsequence must be entered to configure the switch?",
+      "image": "img/340.png",
+      "details": {
+        "choices": [
+          "SW1(config-if)# switchport mode nonegotitate \nSW1(config-if)# switchport port-security\nSW1(config-if)# switchport port-security maximum 1",
+          "SW1(config-if)# switchport mode dynamic auto \nSW1(config-if)# switchport port-security\nSW1(config-if)# switchport port-security violation restrict",
+          "SW1(config-if)# switchport mode access \nSW1(config-if)# switchport port-security\nSW1(config-if)# switchport port-security mac-address 0050.7966.6800",
+          "SW1(config-if)# switchport mode dynamic desirable\nSW1(config-if)# switchport port-security mac-address 005.7966.6800 \nSW1(config-if)# switchport port-security mac-address sticky"
+        ],
+        "correct": [2]
+      }
+    },
+    {
+      "id": 341,
+      "type": "multiple_choice",
+      "question": "Which command enables HTTP access to the Cisco WLC?",
+      "image": null,
+      "details": {
+        "choices": [
+          "config network webmode enable",
+          "config network secureweb enable",
+          "config certificate generate webadmin",
+          "config network telnet enable"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 342,
+      "type": "multiple_choice",
+      "question": "Cisco engineer is configuring a factory-default router with these three passwords:\n1. The user EXEC password for console access is p4ssw0rd1.\n2. The user EXEC password for Telnet access is s3cr3t2.\n3. The password for privileged EXEC mode is pri4t3p4ss.\nWhich command sequence must the engineer configure?",
+      "image": null,
+      "details": {
+        "choices": [
+          "enable secret priv4t3p4ss\n!\nline con0\npassword p4ssword1 \nlogin\n!\nline vty 0 15 \npassword s3cr3t2 \nlogin",
+          "enable secret privilege 15 priv4t3p4ss\n!\nline con0\npassword p4ssword1 \nlogin\n!\nlogin vty 0 15 \npassword s3cr3t2 \nlogin",
+          "enable secret priv4tp4ss\n!\nline con0\npassword p4ssword1\n!\nline vty0 15 \npassword s3cr3t2",
+          "enable secret priv4t3p4ss\n!\nline con 0\npassword login p4ssw0rd1\n!"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 343,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. An engineer executed the script and added commands that were not necessary for SSH \nand now must remove the commands. WHich two commands must be executed to correct the configuration? \n(Choose two).",
+      "image": "img/343.png",
+      "details": {
+        "choices": [
+          "no ip domain name ccna.cisco.com",
+          "no login local",
+          "no service password-encryption",
+          "no hostname CPE",
+          "no ip name-server 198.51.100.210"
+        ],
+        "correct": [2, 4]
+      }
+    },
+    {
+      "id": 344,
+      "type": "multiple_choice",
+      "question": "which syslog severity level is considered the most severe and results in the system being considered unusable?",
+      "image": null,
+      "details": {
+        "choices": ["Critical", "Emergency", "Alert", "Error"],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 345,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. The network engineer is configuring a new WLAN and is told to use a setup password for \nauthentication instead of the RADIUS servers. Which additional set of tasks must the engineer perform to \ncomplete the configuration?",
+      "image": "img/345.png",
+      "details": {
+        "choices": [
+          "Disable PMF \nEnable PSK \nEnable 802.1x",
+          "Select WPA2 Policy \nDisable PMF \nEnable PSK",
+          "Select WPA\nPolicy Select WPA\nPolicy Enable FT PSK",
+          "Disable PMF \nEnable PSK \nEnable 802.1x"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 346,
+      "type": "multiple_choice",
+      "question": "Why choose Cisco DNA Center for automated lifecycle management?",
+      "image": null,
+      "details": {
+        "choices": [
+          "to provide software redundancy in the network",
+          "to allow SSH access to all nodes in the network",
+          "to provide fast and accurate deployment of patches and updates",
+          "to perform upgrades without service interruption"
+        ],
+        "correct": [2]
+      }
+    },
+    {
+      "id": 347,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. All routers in the network are configured correctly, and the expected routes are being \nexchanged among the routers. Which set of routes are learned from neighbors and installed on router 2?",
+      "image": "img/347.png",
+      "details": {
+        "choices": [
+          "10.129.9.0/23 \n10.139.2.0/30\n10.2.191.0/30\n10.129.9.0/25",
+          "10.129.9.0/23 \n10.139.2.0/30\n10.129.9.0/25\n10.22.1.0/24",
+          "10.40.1.0/30 \n10.139.2.0/30\n10.2.191.0/30\n10.129.9.0/25",
+          "10.129.9.0/23 \n10.40.1.0/30\n10.2.191.0/30\n10.129.9.0/25"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 348,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. The switches are connected via a Cat5 Ethernet cable that was successfully tested. The \ninterfaces are configured as access ports and are both in a \"down\" status. What is the cause of this issue?",
+      "image": "img/348.png",
+      "details": {
+        "choices": [
+          "The portfast command is missimg from the configuration.",
+          "The switches are configured with incompatible duplex settings",
+          "The distance between the two switches is not supported by Cat5",
+          "The speed settings on the switches aare mismatched"
+        ],
+        "correct": [3]
+      }
+    },
+    {
+      "id": 349,
+      "type": "multiple_choice",
+      "question": "What is the difference between controller-based networks and traditional networks as they relate to control-plane and/or data-plane functions?",
+      "image": null,
+      "details": {
+        "choices": [
+          "Controller-based networks centralize all important data-plane functions, and traditional networks distribute \ndata-plane functions.",
+          "Controller-based networks centralize all important control-plane functions, and traditional networks distribute \ncontrol-plane functions.",
+          "Traditional networks centralize all important control-plane functions, and controller-based networks \ndistribute control-plane functions.",
+          "Traditional networks centralize all important data-plane functions, and controller-based networks distribute \ndata-plane functions."
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 350,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. Router-WAN1 has a new connection via Gi0/0 to the ISP. Users running the web \napplications indicate the connectivity in unstable to the internet. What is causing the interface issue?",
+      "image": "img/350.png",
+      "details": {
+        "choices": [
+          "Frames are discarded due to half-duplex negotiation.",
+          "Small frames less than 64 bytes are rejected due to size",
+          "The receive buffer is full due to a broadcast storm",
+          "Broadcast packets are rejected because ARP timeout is enabled"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 351,
+      "type": "multiple_choice",
+      "question": "A switch is forwarding a frame out of all interfaces except the interface that received the fram. What is the \ntechnical term for this process?",
+      "image": null,
+      "details": {
+        "choices": ["ARP", "CDP", "Multicast", "Flooding"],
+        "correct": [3]
+      }
+    },
+    {
+      "id": 352,
+      "type": "multiple_choice",
+      "question": "What must a network administrator consider when deciding whether to configure a new wireless network with \nAPs in autonomous mode or APs running in cloud-based mode?",
+      "image": null,
+      "details": {
+        "choices": [
+          "Autonomous mode APs are easy to deploy and automate than APs in cloud-based mode.",
+          "Autonomous mode APs are less dependent on an underlay but more complay to mintain than APs in cloud-based mode.",
+          "Cloud-based mode APs are easy to deploy but harder to automate than APs in autonomous mode",
+          "Cloud-based mode APs rely on underlays and are more complex to maintain than APs in autonomous \nmode"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 353,
+      "type": "multiple_choice",
+      "question": "A network engineer is configuring a new router at a branch office. The router is connected to an upstream WAN \nnetwork thaa allows the branch to communicate with the head office. The central time server with IP address \n172.24.54.8 is located behind a firewall at the head office. Which command must the enginner configure so that \nthe software clock of the new router synchrnizes with the timeserver?",
+      "image": null,
+      "details": {
+        "choices": [
+          "ntp server 172.24.54.8",
+          "ntp peer 172.24.54.8",
+          "ntp master 172.24.54.8",
+          "ntp client 172.24.54.8"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 354,
+      "type": "multiple_choice",
+      "question": "Which mechanism allows WPA3 to provide a higher degree of security than its predecessors?",
+      "image": null,
+      "details": {
+        "choices": [
+          "certificate-based authentication",
+          "SAE password-based key exchange",
+          "special-character support in preshared keys",
+          "automatic device pairing"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 355,
+      "type": "multiple_choice",
+      "question": "Which protocol does Ansible use to push modules to nodes in a network?",
+      "image": null,
+      "details": {
+        "choices": ["Telnet", "Kerberos", "SSH", "SNMP"],
+        "correct": [2]
+      }
+    },
+    {
+      "id": 356,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. If the network environment is operating normally, which type of device must be connected\nto interface fastethernet 0/1?",
+      "image": "img/356.png",
+      "details": {
+        "choices": ["access point", "DHCP client", "router", "PC"],
+        "correct": [2]
+      }
+    },
+    {
+      "id": 357,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. An administrator must turn off the Cisco Discovery Protocol on the port configured with \naddress in the 10.0.0.0/30 subnet. Which command set meets the requirement?",
+      "image": "img/357.png",
+      "details": {
+        "choices": [
+          "interface gi0/1 \nno cdp enable",
+          "interface gi0/0 \nno cdp run",
+          "interface gi0/1 \nclear cdp table",
+          "interface gi0/0\nno cdp advertise-v2"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 358,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. Users need to connect to the wireless network with IEEE 802.11r-compatible devices. The \nconnection must be maintained as users travel between floors or to other areas in the building, what must be \nthe configuration of the connection?",
+      "image": "img/358.png",
+      "details": {
+        "choices": [
+          "Enable Fast Transition and select the FT PSK option",
+          "Select the WPA Policy option with the CCKM option",
+          "Disable AES encryption",
+          "Enable Fast Transition and select the FT 802.1X option"
+        ],
+        "correct": [3]
+      }
+    },
+    {
+      "id": 359,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. For security reasons, automatic neighbor discovery must be disabled on the R5 Gi0/1 \ninterface. These tasks must be completed:\nDisable all neighbor discovery methods on R5 interface Gi0/1. \nPermit neighbor discovery on R5 interface Gi0/2.\nVerify there are no dunamically learned neighbors on R5 interface Gi0/1 \nDisplay the IP address of R6's interface Gi0/2\nWhich configuration must be used?",
+      "image": "img/359.png",
+      "details": {
+        "choices": [
+          "R5(config)# int Gi0/1 \nR5(config-if)# no cdp enable \nR5(config-if)# exit \nR5(config)# no lldp run \nR5(config)# cdp run\nR5# sh cdp neighbor \nR5# sh lldp neighbor",
+          "R5(config)# int Gi0/1 \nR5(config-if)# no cdp run \nR5(config-if)# exit \nR5(config)# llpd run \nR5(config)# cdp enable \nR5# sh cdp neighbor \nR5# sh lldp neighbor",
+          "R5(config)# int Gi0/1 \nR5(config-if)# no cdp enable \nR5(config-if)# exit \nR5(config)# no llpd run \nR5(config)# cdp run\nR5# sh cdp neighbor detail \nR5# sh lldp neighbor",
+          "R5(config)# int Gi0/1 \nR5(config-if)# no cdp enable \nR5(config-if)# exit \nR5(config)# llpd run \nR5(config)# no cdp run\nR5# sh cdp neighbor detail \nR5# sh lldp neighbor"
+        ],
+        "correct": [2]
+      }
+    },
+    {
+      "id": 360,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. Which two values does router R1 use to identify valid routes for the R3 loopback address \n1.1.1.3/32? (choose two).",
+      "image": "img/360.png",
+      "details": {
+        "choices": [
+          "lowest cost to reach the next hop",
+          "lowest metric",
+          "highest metric",
+          "lowest administrative distance",
+          "highest administrative distance"
+        ],
+        "correct": [1, 3]
+      }
+    },
+    {
+      "id": 361,
+      "type": "multiple_choice",
+      "question": "An engineer must configure R1 for a new user account. The account must meet these requirements:\n1. It must be configured in the local database.\n2. The username is engineer2.\n3. It must use the strongest password configurable.\nWhich command must the engineer configure on the router?",
+      "image": null,
+      "details": {
+        "choices": [
+          "R1(config)# username engineer2 secret 4 XXXXXXXXXX",
+          "R1(config)# username engineer2 privilege 1 password 7 test2021",
+          "R1(config)# username engineer2 secret 5 password XXXXXXXXXX",
+          "R1(config)# username engineer2 algorithm-type scrypt secret test2021"
+        ],
+        "correct": [3]
+      }
+    },
+    {
+      "id": 362,
+      "type": "multiple_choice",
+      "question": "What is an Ansible inventory?",
+      "image": null,
+      "details": {
+        "choices": [
+          "file that defines the target devices upon which commands and tasks are executed",
+          "device with Ansible installed that manages target devices",
+          "collection of actions to perform on traget devices, expressed in YAML format",
+          "unit of Python code to be executed within Ansible"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 363,
+      "type": "multiple_choice",
+      "question": "Which protocol is implemented when an organization must verify network performance, troubleshoot issues, \nand use an agent to communitace between monitoring tools and end devices?",
+      "image": null,
+      "details": {
+        "choices": ["FTP", "SNMP", "NTP", "NFS"],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 364,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. An engineer is creating a secure preshared key based SSID using WPA2 for a wireless \nnetwork running on 2.4 GHz and 5 GHz. Which two tasks must the engineer perform to complete the process? \n(Choose two).",
+      "image": "img/364.png",
+      "details": {
+        "choices": [
+          "Select the AES (CCMP128) option for WPA2/WPA3 Encryption",
+          "Select the AES option for Auth Key Management",
+          "Select the 802.1X option for Auth Key Management",
+          "Select the PSK option for Auth Key Management",
+          "Select the WPA Policy option"
+        ],
+        "correct": [0, 3]
+      }
+    },
+    {
+      "id": 365,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. A network engineer started to change default settings on SW1 to allow remote access and \nhas entered the following in the configuration mode:\nSW1#(config)#line vty 015\nSW1#(config-line)#password Labtest32!\nWhich set of commands are needed to allow only SSH access and hide passwords in the running \nconfiguration?",
+      "image": "img/365.png",
+      "details": {
+        "choices": [
+          "SW1#(config-line)#transport input ssh \nSW1#(config-line)#exit\nSW1(config)#service password-encyption",
+          "SW1#(config-line)#exit\nSW1(config)#aaa new-model",
+          "SW1#(config-line)#login local \nSW1#(config-line)#exit\nSW1(config)#crypto key generate rsa",
+          "SW1#(config-line)#login local \nSW1#(config-line)#exit\nSW1(config)#enable secret test!2E"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 366,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. Which configuration parameter is preventing host C from reaching the internet?",
+      "image": "img/366.png",
+      "details": {
+        "choices": [
+          "IP network mask",
+          "default gateway",
+          "automatic DNS",
+          "IP address assignment"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 367,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. The switch cat9k-acc-1 connects users to the campus LAN. Printing services are \ninaccessible through the network. Which interface issue is causing the connectivity problems?",
+      "image": "img/367.png",
+      "details": {
+        "choices": [
+          "The interface output queue cannot process the Ethernet frames",
+          "A bad checksum is causing Ethernet frames to drop",
+          "Excessive collisions are causing dropped frames",
+          "A large number of broadcast packets are resulting in a port reset,"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 368,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. How will the device handle a packet destined to IP address 100.100.100.100?",
+      "image": "img/368.png",
+      "details": {
+        "choices": [
+          "It will choose the route with the lowest metric,\nR 100.0.0.0/8 [120/2] via 192.168.3.1, 00:00:13, Ethernet0/3.",
+          "It will choose the route with the highest metric,\nD 100.100.100.0/24 [90/435200] via 192.168.2.1.00:00:13. Ethernet0/2",
+          "It will choose the route with the longest match,\nO 100.100.100.100/32 [110/21] via 192.168.1.1,00:05:57, Ethernet0/1",
+          "It will always prefer the static route over dynamic routes and choose the route\nS 100.100.0.0/16 [1/0] via 192.168.4.1."
+        ],
+        "correct": [2]
+      }
+    },
+    {
+      "id": 369,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. Which type of JSON data is represented?",
+      "image": "img/369.png",
+      "details": {
+        "choices": ["string", "number", "object", "array"],
+        "correct": [3]
+      }
+    },
+    {
+      "id": 370,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. A network engineer is configuring a WLAN to use a WPA2 PSK and allow only specific \nclients to join. Which two actions must be taken to complete the process? (Choose two).",
+      "image": "img/370.png",
+      "details": {
+        "choices": [
+          "Enable the MAC Filtering option",
+          "Enable the OSEN Policy option",
+          "Enable the 802.1X option for Authentication Management",
+          "Enable the CCKM option for Authentication Management",
+          "Enable the WPA2 Policy option"
+        ],
+        "correct": [0, 4]
+      }
+    },
+    {
+      "id": 371,
+      "type": "multiple_choice",
+      "question": "Which protocol should be used to tranfer large files on a company intranet that allows TCP 20 and 21 through \nthe firewall?",
+      "image": null,
+      "details": {
+        "choices": ["TFTP", "FTP", "REST API", "SMTP"],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 372,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. How must router A be configured so that it only sends Cisco Discovery Protocol information \nto router C?",
+      "image": "img/372.png",
+      "details": {
+        "choices": [
+          "#config t\nRouter A(config)# no cdp run \nRouter A(config)# interface gi0/0/1 \nRouter A(config-if)# cdp enable",
+          "#config t\nRouter A(config)# cdp run\nRouter A(config) # interface gi0/0/0 \nRouter A(config-if)# cdp enable",
+          "#config t\nRouter A(config)# cdp run\nRouter A(config)# interface gi0/0/1 \nRouter A(config-if)# cdp enable",
+          "#config t\nRouter A(config)# cdp run\nRouter A(config)# interface gi0/0/0 \nRouter A(config-if)# cdp enable"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 373,
+      "type": "multiple_choice",
+      "question": "Which two protocols are supported on service-port interface? (Choose two).",
+      "image": null,
+      "details": {
+        "choices": ["RADIUS", "TACACS+", "SCP", "Telnet", "SSH"],
+        "correct": [3, 4]
+      }
+    },
+    {
+      "id": 374,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. Routers R1, R2 and R3 use a protocol to identify their neighbors' IP addresses, hardware \nplatforms, and software versions. A network engineer must configure R2 to avoid sharing any neighbor \ninformation with R3, and maintain its relationship with R1. What action meets this requirement?",
+      "image": "img/374.png",
+      "details": {
+        "choices": [
+          "Configure the no lldp run command globally",
+          "Configure the no cdp run command globally",
+          "Configure the no cdp enable command on g0/2",
+          "Configure the no IIdp receive command on g0/1"
+        ],
+        "correct": [2]
+      }
+    },
+    {
+      "id": 375,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. A network engineer configures the CCNA WLAN so that clients must reauthenticate hourly \nand limit the number of simultaneous connections to the WLAN to 10. Which two actions complete this \nconfiguration? (Choose two).",
+      "image": "img/375.png",
+      "details": {
+        "choices": [
+          "Enable the Client Exclusion option and set the value to 3600",
+          "Set the Maximum Allowed Client Per AP Radio value to 10",
+          "Enable the Enable Session Timeout option and set the value to 3600",
+          "Set the Maximum Allowed Clients value to 10",
+          "Enable the Wi-Fi Direct Client Policy option"
+        ],
+        "correct": [2, 3]
+      }
+    },
+    {
+      "id": 376,
+      "type": "multiple_choice",
+      "question": "A network engineer must configure an access list on a new Cisoco IOS router. The access list must HTTP \ntraffic to network 10.125.128.32/27 from the 192.168.240.0/20 network, but it must allow the 192.168.240.0/20 \nnetwork to reach the rest of the 10.0.0.0/8 network. Which configuration must the engineer apply?",
+      "image": null,
+      "details": {
+        "choices": [
+          "ip access-list extended deny_outbound\n10 permit ip 192.168.240.0 255.255.240.0 10.0.0.0 255.0.0.0\n20 deny tcp 192.168.240.0 255.255.240.0 10.125.128.32 255.255.255.224 eq 443\n30 permit ip any any",
+          "ip access-list extended deny_outbound\n10 deny tcp 192.168.240.0 0.0.15.255 10.125.128.32 0.0.0.31 eq 80\n20 permit ip 192.168.240.0 0.0.15.255 10.0.0.0 0.255.255.225\n30 deny ip any any log",
+          "ip access-list extended deny outbound\n10 deny tcp 192.168.240.0.0.0.15.255 any eq 80\n20 deny tcp 192.168.240.0.0.0.15.255 10.125.128.32 0.0.0.31 eq 80\n30 permit ip 192.168.240.0 0.0.15.255 10.0.0.0 0.255.255.255",
+          "ip access-list extended deny_outbound\n10 deny ip 10.125.128.32 255.255.255.224 192.168.240.0 255.255.240.0 eq 443\n20 deny tcp 192.168.240.0 255.255.240.0 10.125.128.32 255.255.255.224 eq 443\n30 permit ip 192.168.240.0 255.255.240.0 10.0.0.0 255.0.0.0"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 377,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. A network administrator is configuring a router for user access via access SSH. The \nservice-password encryption command has been issued. The configuration must meet these requirments:\n1. Create the username as CCUser.\n2. Create the password as NAI2$cc.\n3. Encrypt the user password.\n\nWhat must be configured to meet the requirements?",
+      "image": "img/377.png",
+      "details": {
+        "choices": [
+          "username CCUser secret NAI2Scc",
+          "username CCUser privilege 15 password NA!2Scc \nenable secret NA!2Scc",
+          "username CCUser password NAI2Scc \nenable password level 5 NA!2SCC",
+          "username CCUser privilege 10 password NA!2Scc"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 378,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. Users on exiting VLAN 100 can reach sites on the internet. WHich action must the \nadministrator take to establish connectivity to the internet for users in VLAN 200?",
+      "image": "img/378.png",
+      "details": {
+        "choices": [
+          "Update the NAT_INSIDE_RANGES ACL",
+          "Configure the ip nat outside command on another interface for VLAN 200",
+          "Configure static NAT translations for VLAN 200",
+          "Define a NAT pool on the router"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 379,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. Which IPv6 configuration is required for R17 to successfully ping the WAN interface on \nR18?",
+      "image": "img/379.png",
+      "details": {
+        "choices": [
+          "R17#\n!\nno ip domain lookup \nip cef\nipv6 unicast-routing\n!\ninterface FastEthernet0/0 \nno ip address\nduplex auto \nspeed auto\nipv6 address 2001:DB8:2::201/64\n!\ninterface FastEthernet1/0 \nno ip address\nduplex auto \nspeed auto\nipv6 address 2001:DB8:3::201/64\n!\nno cdp log mismatch duplex\nipv6 route 2001:DB8:4::64 2001:DB8:3::301",
+          "R17#\n!\nno ip domain lookup \nip cef\n!\ninterface FastEthernet0/0 \nno ip address\nduplex auto \nspeed auto\nipv6 address 2001:DB8:3::201/64\n!\ninterface FastEthernet1/0 \nno ip address\nduplex auto \nspeed auto\nipv6 address 2001:DB8:2::201/64\n!\nno cdp log mismatch duplex\nipv6 route 2001:DB8:4::64 2001:DB8:5::101",
+          "R17#\n!\nno ip domain lookup \nip cef\nipv6 cef\n!\ninterface FastEthernet0/0 \nno ip address\nduplex auto \nspeed auto\nipv6 address 2001:DB8:2::201/64\n!\ninterface FastEthernet1/0 \nno ip address\nduplex auto \nspeed auto\nipv6 address 2001:DB8:3::201/64\n!\nno cdp log mismatch duplex\nipv6 route 2001:DB8:4::64 2001:DB8:4::302",
+          "R17#\n!\nno ip domain lookup \nip cef\nipv6 unicast-routing\n!\ninterface FastEthernet0/0 \nno ip address\nduplex auto \nspeed auto\nipv6 address 2001:DB8:2::201/64\n!\ninterface FastEthernet1/0 \nno ip address\nduplex auto \nspeed auto\nipv6 address 2001:DB8:3::201/64\n!\nno cdp log mismatch duplex\nipv6 route 2001:DB8:4::64 2001:DB8:2::201"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 380,
+      "type": "multiple_choice",
+      "question": "What is a characteristic of RSA?",
+      "image": null,
+      "details": {
+        "choices": [
+          "It requires both sides to have identical keys",
+          "It is a public key cryptosystem",
+          "It uses preshared keys for encryption",
+          "It is a private-key encryption algorithm"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 381,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. Traffic that is flowing over interface TenGigabitEthernet0/0 experiences slow transfer \nspeeds. What is the reason for the issue?",
+      "image": "img/381.png",
+      "details": {
+        "choices": [
+          "queuing drops",
+          "heavy traffic congestion",
+          "a speed conflict",
+          "a duplex incompatibility"
+        ],
+        "correct": [3]
+      }
+    },
+    {
+      "id": 382,
+      "type": "multiple_choice",
+      "question": "What is function of a southbound API?",
+      "image": null,
+      "details": {
+        "choices": [
+          "Manage flow control between an SDN controller and a switching fabric",
+          "Automate configuration changes between a server and a switching fabric",
+          "Use orchestration to provision a virtual server configuration from a web server",
+          "Facilitate the information exchange between an SDN controller and application"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 383,
+      "type": "multiple_choice",
+      "question": "What is the purpose of the URI string in a REST request?",
+      "image": null,
+      "details": {
+        "choices": [
+          "to identify a resource on a target server",
+          "to transport data or payload to a remote resource",
+          "to respond with the data content encoding for a request",
+          "to specify the way in which a remote resource is modified"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 384,
+      "type": "multiple_choice",
+      "question": "An administrator must secure the WLC from receiving spoofed association requests. Which steps must be \ntaken to configure the WLC to restrict the requests and force the user to wait 10 ms to retry an association \nrequest?",
+      "image": null,
+      "details": {
+        "choices": [
+          "Enable Security Association Teardown Protection and set the SA Query timeout to 10",
+          "Enable MAC filtering and set the SA Query timeout to 10",
+          "Enable the Protected Management Frame service and set the Comeback timer to 10",
+          "Enable 802.1x Layer 2 security and set the Comeback timer to 10"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 385,
+      "type": "multiple_choice",
+      "question": "Which two statements disringuish authentication from accounting? (Choose two).",
+      "image": null,
+      "details": {
+        "choices": [
+          "Only authentication challenges users for their credentials and returns a response",
+          "Only authentication supports user-activity audits",
+          "Only authentication records the duration of a user's connection",
+          "Only authentication validates \"who you are\"",
+          "Only authentication provides supporting information for billing users"
+        ],
+        "correct": [0, 3]
+      }
+    },
+    {
+      "id": 386,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. IPv6 is being implemented within the enterprise. The command ipv6 unicast-routing is \nconfigured. Interface Gig0/0 on R1 must be configured to provide a dynamic assignment using the assigned \nIPv6 block. Which command accomplishes this task?",
+      "image": "img/386.png",
+      "details": {
+        "choices": [
+          "ipv6 address 2001:DB8:FFFF:FCF3::/64 eui-64",
+          "ipv6 address autoconfig 2001:DB8:FFFF:FCF2::/64",
+          "ipv6 address 2001:DB8:FFFF:FCF3::/64 link-local",
+          "ipv6 address 2001:DB8:FFFF:FCF3::1/64"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 387,
+      "type": "multiple_choice",
+      "question": "Refer to exhibit. An engineer is configuring the HO router. Which IPv6 address configuration must be applied to \nthe router fa0/1 interface for the router to assign a unique 64-bit IPv6 address to itself?",
+      "image": "img/387.png",
+      "details": {
+        "choices": [
+          "ipv6 address 2001:DB8:0:1:FFFF:C601:420F:7/64",
+          "ipv6 address 2001:DB8:0:1:FE80:C601:420F:7/64",
+          "ipv6 address 2001:DB8:0:1:C601:42FF:FE0F:7/64",
+          "ipv6 address 2001:DB8:0:1:C601:42FE:800F:7/64"
+        ],
+        "correct": [2]
+      }
+    },
+    {
+      "id": 388,
+      "type": "multiple_choice",
+      "question": "Which alternative to password authentication is implemented to allow enterprise devices to log in to the \ncorporate network?",
+      "image": null,
+      "details": {
+        "choices": [
+          "magic links",
+          "sone-time passwords",
+          "digital certificates",
+          "90-days renewal policie"
+        ],
+        "correct": [2]
+      }
+    },
+    {
+      "id": 389,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. What is the cause of poor performance on router R19?",
+      "image": "img/389.png",
+      "details": {
+        "choices": [
+          "excessive collisions",
+          "port oversubscription",
+          "speed and duplex mismatch",
+          "excessive CRC errors"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 390,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. Which switch in this configuration will be elected as the root bridge?",
+      "image": "img/390.png",
+      "details": {
+        "choices": [
+          "SW1: 0C:0E:15:XX:XX:XX",
+          "SW2: 0C:C4:XX:XX:XX:XX",
+          "SW3: 0C:0E:18:XX:XX:XX",
+          "SW4: 0C:0C:XX:XX:XX:XX"
+        ],
+        "correct": [3]
+      }
+    },
+    {
+      "id": 391,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. Network services must be enabled on interface Gi1/0/34. Which configuration meets the \nneeds for this implementation?",
+      "image": "img/391.png",
+      "details": {
+        "choices": [
+          "interface Gi1/0/34 \nswitchport mode trunk\nswitchport trunk allowed vlan 400, 4041 \nswitchport voice vlan 4041",
+          "interface Gi1/0/34 \nswitchport mode access \nswitchport access vlan 4041 \nswitchport voice vlan 400",
+          "interface Gi1/0/34 \nswitchport mode access \nswitchport access vlan 400 \nswitchport voice vlan 4041",
+          "interface GI1/0/34 \nswitchport mode truck\nswitchport trunk allowed native vlan 400 \nswitchport voice vlan 4041"
+        ],
+        "correct": [2]
+      }
+    },
+    {
+      "id": 392,
+      "type": "multiple_choice",
+      "question": "What is a functionality of the control plane in the network?",
+      "image": null,
+      "details": {
+        "choices": [
+          "It looks up an egress interface in the forwarding information base",
+          "It exchanges topology information with other routers",
+          "It forwards traffic to the next hop",
+          "It provides CLI access to the network device"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 393,
+      "type": "multiple_choice",
+      "question": "When is the PUT method used within HTTP?",
+      "image": null,
+      "details": {
+        "choices": [
+          "to display a web site",
+          "when a noidempotent operation is needed",
+          "when a read-only operation is required",
+          "to update a DNS server"
+        ],
+        "correct": [3]
+      }
+    },
+    {
+      "id": 394,
+      "type": "multiple_choice",
+      "question": "A router has two static routes to the same destination network under the same OSPF process. How does the \nrouter forward packets to the destination to the next-hop devices are different?",
+      "image": null,
+      "details": {
+        "choices": [
+          "The router chooses the next hop with the lowest IP address",
+          "The router chooses the route with the oldest age",
+          "The router load-balances traffic over all routes to the destination",
+          "The router chooses the next hop with the lowest MAC address"
+        ],
+        "correct": [2]
+      }
+    },
+    {
+      "id": 395,
+      "type": "multiple_choice",
+      "question": "Which authentication method requires the user to provide a physical attribute to authenticate successfully?",
+      "image": null,
+      "details": {
+        "choices": ["biometric", "multifactor", "password", "certificate"],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 396,
+      "type": "multiple_choice",
+      "question": "What is a reason to implement IPv4 private addressing?",
+      "image": null,
+      "details": {
+        "choices": [
+          "Comply with PCI regulations",
+          "Comply with local law",
+          "Reduce the size of the forwarding table on network routers",
+          "Reduce the risk of a network security breach"
+        ],
+        "correct": [3]
+      }
+    },
+    {
+      "id": 397,
+      "type": "multiple_choice",
+      "question": "What is the function of a controller in controller-based networking?",
+      "image": null,
+      "details": {
+        "choices": [
+          "It is a pair of core reouters that maintain all routing decisions for a campus",
+          "It is the card on a core router that maintains all routing decisions for a campus",
+          "It centralizes the data plane for the network",
+          "It serves as the centralized management point of an SDN architecture"
+        ],
+        "correct": [3]
+      }
+    },
+    {
+      "id": 398,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. An engineer is using the Cisco WLC GUI to configure a WLAN for WPA2 encryption with \nAES and preshared key Cisco0123456. After the engineer selects the WPA WPA2 option from the Layer 2 \nSecurity drop-down list, which two tasks must they perform to complete the process? (Choose two).",
+      "image": "img/398.png",
+      "details": {
+        "choices": [
+          "Select the WPA2 Policy and AES check boxes",
+          "Select the WPA2 Policy, AES, and TKIP check boxes",
+          "Select CCKM from the Auth Key Mgmt drop-down list, set the PSK Format to Hex, and enter the key",
+          "Select ASCII from the PSK Format drop-down list, enter the key, and leave the Auth Key Mgmt setting blank",
+          "Select PSK from the Auth Key Mgmt drop-down list, set the PSK Format to ASCII, and enter the key"
+        ],
+        "correct": [0, 4]
+      }
+    },
+    {
+      "id": 399,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. If the default gateway is the first usable IP address in the subnet, what is the default \ngateway?",
+      "image": "img/399.png",
+      "details": {
+        "choices": ["10.8.144.1", "10.8.132.1", "10.8.138.1", "10.8.128.1"],
+        "correct": [3]
+      }
+    },
+    {
+      "id": 400,
+      "type": "multiple_choice",
+      "question": "In which way does generative AI aid network simulations?",
+      "image": null,
+      "details": {
+        "choices": [
+          "It creates synthetic network configurations",
+          "It computes optimal data storage solutions",
+          "It deploys network firmware updates",
+          "It produce a greenfield network design"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 401,
+      "type": "multiple_choice",
+      "question": "Which cable type must be used to interconnect one switch using 1000 BASE-SX GBIC modules and another \nswitch using 1000 BASE-SX SFP modules?",
+      "image": null,
+      "details": {
+        "choices": ["SC to ST", "SC to SC", "LC to SC", "LC to LC"],
+        "correct": [2]
+      }
+    },
+    {
+      "id": 402,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. Company A wants to use a RADIUS server to service all user and device authentication \nattempts with a more secure and granular authentication approach. Not all client devices support dot1X \nauthentication. Which two configuration changes must be made to accomplish the task? (Choose two).",
+      "image": "img/402.png",
+      "details": {
+        "choices": [
+          "Enable WPA2 Policy under the Layer 2 tab",
+          "Configure Enterprise Security type under the Layer 2 tab",
+          "Enable AutoConfig iPSK under the Layer 2 tab",
+          "Select Authentication server under the AAA servers tab",
+          "Set Authentication under the Layer 3 tab"
+        ],
+        "correct": [1, 3]
+      }
+    },
+    {
+      "id": 403,
+      "type": "multiple_choice",
+      "question": "Which factor must be considered during the implementation of an IPsec VPN?",
+      "image": null,
+      "details": {
+        "choices": [
+          "In IPsec tunnel mode, the entire original IP datagram is encrypted",
+          "IPsec transport mode leaves the Layer 4 header unencrypted for inspection",
+          "In IPsec tunnel mode, only the IP payload is encrypted",
+          "IPsec transport mode increases GRE tunnel security over tunnel mode"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 404,
+      "type": "multiple_choice",
+      "question": "What is the default interface for in-band wireless network management on a WLC?",
+      "image": null,
+      "details": {
+        "choices": [
+          "wireless management",
+          "out-of-band",
+          "redundant port",
+          "service port"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 405,
+      "type": "multiple_choice",
+      "question": "Which advantage does machine learning offer for network security?",
+      "image": null,
+      "details": {
+        "choices": [
+          "It controls VPN access permissions",
+          "It improves real-time threat detection",
+          "It manages firewall rule sets",
+          "It enforces password complexity requirements"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 406,
+      "type": "multiple_choice",
+      "question": "What describes multifactor authentication in security password policies?",
+      "image": null,
+      "details": {
+        "choices": [
+          "It uses factors from at least two different categories to identify all users",
+          "It applies biological characteristics to authenticate and access the system",
+          "It enables a cryptographic link between a public key and the owning entity",
+          "It uses an application programming interface to access the data of the operating system"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 407,
+      "type": "multiple_choice",
+      "question": "A network architect planning a new Wi-Fi network must decide between autonomous, cloud-based, and split \nMAC architectures. Which two facts should the architect consider? (Choose two).",
+      "image": null,
+      "details": {
+        "choices": [
+          "Autonomous architectures exclusively use tunneling protocols to manage access points remotely",
+          "Each of the three architectures must use WLCs to manage their access points",
+          "Cloud-based architectures uniquely use the CAPWAP protocol to communicate between access points and \nclients",
+          "All three architectures use access points to manage the wireless devices connected to the wired \ninfrastructure",
+          "Lightweight access points are solely used by split MAC architectures"
+        ],
+        "correct": [3, 4]
+      }
+    },
+    {
+      "id": 408,
+      "type": "multiple_choice",
+      "question": "What is the central role of a hypervisor in a virtualized environment?",
+      "image": null,
+      "details": {
+        "choices": [
+          "Allow a single guest operating system to run on the physical server",
+          "Present virtualized hardware to a guest operating system",
+          "Support many applications to run on a shared guest operating system",
+          "Create a single library environment for many operating stems"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 409,
+      "type": "multiple_choice",
+      "question": "Which WPA3 mode uses SHA-256 for authentication and key management?",
+      "image": null,
+      "details": {
+        "choices": ["transition", "SAE", "OWE", "802.1X"],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 410,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. The user has connectivity to devices on network 192.168.3.0/24 but cannot reach users on \nthe network 10.10.1.0/24. What is the first step to verify connectivity?",
+      "image": "img/410.png",
+      "details": {
+        "choices": [
+          "Is the default gateway reachable?",
+          "Is the internet reachable?",
+          "Is the IPv4 address reachable?",
+          "Is the DNS server reachable?"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 411,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. Which interface does a packet take to reach the destination address of 10.10.10.14?",
+      "image": "img/411.png",
+      "details": {
+        "choices": [
+          "Serial 0/0",
+          "FastEthernet 0/1",
+          "FastEthernet 0/2",
+          "FastEthernet 0/0"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 412,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. How does router R1 forward packets destined to 10.0.4.10?",
+      "image": "img/412.png",
+      "details": {
+        "choices": [
+          "via FastEthernet1/1",
+          "via 10.0.4.2",
+          "via 10.0.0.2",
+          "via FastEthernet0/1"
+        ],
+        "correct": [2]
+      }
+    },
+    {
+      "id": 413,
+      "type": "multiple_choice",
+      "question": "Which architecture is best for small offices with minimal wireless needs and no central management?",
+      "image": null,
+      "details": {
+        "choices": [
+          "mesh network",
+          "split MAC",
+          "autonomous AP",
+          "cloud-based AP"
+        ],
+        "correct": [2]
+      }
+    },
+    {
+      "id": 414,
+      "type": "multiple_choice",
+      "question": "What are two port types used by a Cisco WLC for out-of-based management? (Choose two).",
+      "image": null,
+      "details": {
+        "choices": [
+          "redundant",
+          "console",
+          "service",
+          "distribution system",
+          "management"
+        ],
+        "correct": [1, 2]
+      }
+    },
+    {
+      "id": 415,
+      "type": "multiple_choice",
+      "question": "What is the main difference between traditional networks and controller-based networking?",
+      "image": null,
+      "details": {
+        "choices": [
+          "Controller-based networks are a closed ecosystem, and traditional networks take advantage of \nprogrammability",
+          "Controller-based networks are open for application requests, and traditional networks operate manually",
+          "Controller-based networks provide a framework for innovation, and traditional networks create efficiency",
+          "Controller-based networks increase TCO for the company, and traditional networks require less investment"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 416,
+      "type": "multiple_choice",
+      "question": "Which type of DNS record is used to map a host name to an IPv4 address?",
+      "image": null,
+      "details": {
+        "choices": ["MX record", "A record", "AAAA record", "CNAME record"],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 417,
+      "type": "multiple_choice",
+      "question": "Which enhancement is implemented in WPA3?",
+      "image": null,
+      "details": {
+        "choices": [
+          "applies 802.1x authentication",
+          "protects against brute force attacks",
+          "employs PKI to idetify access points",
+          "uses TKIP"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 418,
+      "type": "multiple_choice",
+      "question": "A client experiences slow throughput from a server that is directly connected to the core switch in a data center. \nA network engineer finds minima latency on connections to the server, but data transfers are unrelibale, and the \nuotput of the show interfaces counters errors command shows high FCS-Err count on the interface that is \nconnected to the server. What is the cause of the throughput issue?",
+      "image": null,
+      "details": {
+        "choices": [
+          "a cable that is too long",
+          "a physical cable fault",
+          "high bandwidth usage",
+          "a speed mismatch"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 419,
+      "type": "multiple_choice",
+      "question": "Which Rapid PVST+ port state does a port operate in without receiving BPDUs from neighbors or updating the \naddress database?",
+      "image": null,
+      "details": {
+        "choices": ["forwarding", "disabled", "blocking", "listening"],
+        "correct": [2]
+      }
+    },
+    {
+      "id": 420,
+      "type": "multiple_choice",
+      "question": "What differentiates device management enabled by Cisco DNA Center from traditional campuses device \nmanagement?",
+      "image": null,
+      "details": {
+        "choices": [
+          "CLI-oriented device",
+          "device-by-device hands-on",
+          "per-device",
+          "centralized"
+        ],
+        "correct": [3]
+      }
+    },
+    {
+      "id": 421,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. R1 has just received a packet from hist A that is destined to host B. Which route in the \nrouting table is used by R1 to reach host B?",
+      "image": "img/421.png",
+      "details": {
+        "choices": [
+          "10.10.13.0/25 [1/0] via 10.10.10.2",
+          "10.10.13.0/25 [108/0] via 10.10.10.10",
+          "10.10.13.0/25 [110/2] via 10.10.10.16",
+          "10.10.13.0/25 [110/2] via 10.10.10.2"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 422,
+      "type": "multiple_choice",
+      "question": "What is the advantage of separating the control plane from the data plane within an SDN network?",
+      "image": null,
+      "details": {
+        "choices": [
+          "reduces cost",
+          "limits data quenes to the control plane",
+          "decreases overall network complexity",
+          "offloads the creation of virtual machines to the data plane"
+        ],
+        "correct": [2]
+      }
+    },
+    {
+      "id": 423,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. The image server and client A are running an application that transfers an extremely high \nvolume of data between the two. An engineer is configuring a dedicated circuit between routers R1 and R2. \nWhich set of commands must the engineer apply to the two routers so that only traffic between the image \nserver and client A is forced to use the new crucuit?",
+      "image": "img/423.png",
+      "details": {
+        "choices": [
+          "R1(config)#ip route 10.10.13.10 255.255.255.255 10.10.10.6\nR2(config)#ip route 192.168.0.100 255.255.255.255 10.10.10.5",
+          "R1(config)#ip route 10.10.13.10 255.255.255.128 10.10.10.6\nR2(config)#ip route 192.168.0.100 255.255.255.0 10.10.10.5",
+          "R1(config)#ip route 10.10.13.10 255.255.255.252 10.10.10.6\nR2(config)#ip route 192.168.0.100 255.255.255.252 10.10.10.5",
+          "R1(config)#ip route 10.10.13.10 255.255.255.255 10.10.10.2\nR2(config)#ip route 192.168.0.100 255.255.255.255 10.10.10.1"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 424,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. The My_WLAN wireless LAN was configured with WAP2 Layer 2 PSK security. Which \nadditional configuration must the administrator perform to allow users to connect to this WLAN on different \nsubnet called Data?",
+      "image": "img/424.png",
+      "details": {
+        "choices": [
+          "Enable Status and enable Broadcast SSID",
+          "Enable Status and set the NAS-ID to data",
+          "Enable Status and select data from the Interface/Interface Group drop-down list",
+          "Enable Broadcast SSID and select data from the Interface/Interface Group drop-down list"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 425,
+      "type": "multiple_choice",
+      "question": "Which IPsec mode encapsulates the entire IP packet?",
+      "image": null,
+      "details": {
+        "choices": ["SSL VPN", "Q-in-Q", "transport", "tunnel"],
+        "correct": [3]
+      }
+    },
+    {
+      "id": 426,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. A network administrator configures the CPE to provide internet access to the company \nheadquarters. Traffic must be load-balanced via ISP1 and ISP2 to ensure redundancy. Which two command \nsets must be configured on the CPE router? (Choose two).",
+      "image": "img/426.png",
+      "details": {
+        "choices": [
+          "ip route 0.0.0.0 0.0.0.0 198.51.100.1 255\nip route 0.0.0.0 0.0.0.0 203.0.133.1 255\nip route 128.0.0.0 128.0.0.0 203.0.113.1",
+          "ip route 0.0.0.0 128.0.0.0 198.51.100.1\nip route 128.0.0.0 128.0.0.0 203.0.113.1",
+          "ip route 0.0.0.0 0.0.0.0 198.51.100.1\nip route 0.0.0.0 0.0.0.0 203.0.113.1",
+          "ip route 0.0.0.0 0.0.0.0 198.51.100.1\nip route 0.0.0.0 0.0.0.0 203.0.113.1 2",
+          "ip route 0.0.0.0 128.0.0.0 198.51.100.1\nip route 128.0.0.0 128.0.0.0 203.0.113.1\nip route 0.0.0.0 0.0.0.0 198.51.100.1\nip route 0.0.0.0 0.0.0.0 203.0.113.1"
+        ],
+        "correct": [2, 3]
+      }
+    },
+    {
+      "id": 427,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. IPv6 must be implemented on R1 to the ISP. The uplink between R1 and the ISP must be \nconfigured with a manual assignment, and the LAN interface must be self provisioned. Both connections must \nuse the application IPv6 network. Which two configurations must be applied to R1? (Choose two).",
+      "image": "img/427.png",
+      "details": {
+        "choices": [
+          "interface Gi0/1\nipv6 address 2001:db8:0F1B:FCCB:ACCE:ABCD:FA00:/127",
+          "interface Gi0/0\nipv6 address 2001:db8:1:AFFF::/64 eui-64",
+          "interface Gi0/0\nipv6 address 2001:db8:0:AFFF::/64 eui-64",
+          "interface Gi0/1\nipv6 address 2001:db8:0F1B:FCCB:ACCE:FCED:ABCD:FA02:/127",
+          "interface Gi0/0\nipv6 address 2001:db8:0F1B:FCCB:ACCE:FCED:ABCD:FA03:/127"
+        ],
+        "correct": [2, 3]
+      }
+    },
+    {
+      "id": 428,
+      "type": "multiple_choice",
+      "question": "What is the main purpose of SSH management access?",
+      "image": null,
+      "details": {
+        "choices": [
+          "to support DES 56-bit and 3DES (168-bit) ciphers",
+          "to validate managementaccess with username and domain name only",
+          "to allow passwords protected with HTTPS encryption to be sent",
+          "to enable secured access to the inbound management interface"
+        ],
+        "correct": [3]
+      }
+    },
+    {
+      "id": 429,
+      "type": "multiple_choice",
+      "question": "Which AP mode provides a wireless connection between two network segments?",
+      "image": null,
+      "details": {
+        "choices": ["FlexConnect", "local", "bridge", "root"],
+        "correct": [2]
+      }
+    },
+    {
+      "id": 430,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. The router for 10.220.100.96/27 has been very unstable. The same route has four backups \nto routers A, B, C, and D via the respective methods. The routing protocol defaults for router Y have not been \nchanged. When the current router for 10.220.100.96/27 becames unavailable, which router will router Y use to \nroute traffic to 10.220.100.96/27?",
+      "image": "img/430.png",
+      "details": {
+        "choices": ["router A", "router C", "router D", "router B"],
+        "correct": [3]
+      }
+    },
+    {
+      "id": 431,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. Users will be using a preconfigured secret key and SSID and must have a secured key \nhashing algorithm configured. The AA server must not be used for the user authentication method. Which \naction completes the task?",
+      "image": "img/431.png",
+      "details": {
+        "choices": [
+          "Configure PSK Format HEX with key string",
+          "Configure PSK-SHA2",
+          "Enable AutoConfig iPSK",
+          "Set CCMP128(AES)"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 432,
+      "type": "multiple_choice",
+      "question": "what is the primary purpose of a recursive query in DNS?",
+      "image": null,
+      "details": {
+        "choices": [
+          "to resolve domain names via multiple DNS servers",
+          "to update DNS records on a server",
+          "to refresh the TTL of specific DNS records",
+          "to perform a revers DNS lookup"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 433,
+      "type": "multiple_choice",
+      "question": "What is an appropriate use for private IPv4 addressing?",
+      "image": null,
+      "details": {
+        "choices": [
+          "on hosts that communicates only with other internal hosts",
+          "to allow hosts inside to communicate in both directions with hosts outside the organization",
+          "on internal hosts that stream data solely to external resources",
+          "on the public-facing interface of a firewall"
+        ],
+        "correct": [0]
+      }
+    },
+    {
+      "id": 434,
+      "type": "multiple_choice",
+      "question": "which statement best describes the IPsec site-to-site VPN?",
+      "image": null,
+      "details": {
+        "choices": [
+          "The VPN provides remote access and connects individual users to the headquarter network",
+          "The VPN gateway performs Network Address Translation and then transmits outbound traffic destined for \nthe internet through a VPN tunnel",
+          "The VPN gateway encapsulates and encrypts outbound traffic and transmits it through a VPN tunnel over \nthe internet to other end devices",
+          "The VPN provides access to roaming users and establishes connection with corporate IT resources."
+        ],
+        "correct": [2]
+      }
+    },
+    {
+      "id": 435,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. An engineer is configuring an EtherChannel using LACP between Switches 1 and 2. Which \nconfiguration must be applied so that only Switch 1 sends LACP initiation packets?",
+      "image": "img/435.png",
+      "details": {
+        "choices": [
+          "Switch1(config-if)#channel-group 1 mode on \nSwitch2(config-if)#channel-group 1 mode active",
+          "Switch1(config-if)#channel-group 1 mode passive \nSwitch2(config-if)#channel-group 1 mode active",
+          "Switch1(config-if)#channel-group 1 mode active \nSwitch2(config-if)#channel-group 1 mode passive",
+          "Switch1(config-if)#channel-group 1 mode on \nSwitch2(config-if)#channel-group 1 mode passive"
+        ],
+        "correct": [2]
+      }
+    },
+    {
+      "id": 436,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. An engineer is updating the management access configuration of switch SQ1 to allow secured, \nencrypted remote configuration. Which two commands or command sequences must the engineer apply to the \nswitch? (Choose two.)",
+      "image": "img/436.png",
+      "details": {
+        "choices": [
+          "SW1(config)#enable secret ccnaTest123",
+          "SW1(config)#username NEW secret R3mote123",
+          "SW1(config)#line vty 0 15\nSW1(config-line)#transport input ssh",
+          "SW1(config)# crypto key generate rsa",
+          "E. SW1(config)# interface f0/1\nSW1(confif-if)# switchport mode trunk"
+        ],
+        "correct": [0, 2]
+      }
+    },
+    {
+      "id": 437,
+      "type": "multiple_choice",
+      "question": "Refer to the exhibit. An engineer was asked to update a wireless LAN controller configuration on a newly deployed \nSSID “Office”. However, the configuration was not well documented or commented. What can the engineer \ndetermine about this configuration?",
+      "image": "img/437.png",
+      "details": {
+        "choices": [
+          "there is an additional protection level that helps secure the data frames exchanged between wireless clients \nand the access points for all wireless devicess",
+          "ther is a seamless transition mechanism used to expedite roaming form compatible devices by \nauthentication them before potential roaming occurs",
+          "there is an extended delay that helps in minimizing the time it takes for client devices to stay connected after \nroaming activity for apple and andriod devices",
+          "there is an advanced secure algorithm put into the service to add an extra level of quality assurance for \nwireless delivery networks"
+        ],
+        "correct": [1]
+      }
+    },
+    {
+      "id": 438,
+      "type": "multiple_choice",
+      "question": "which statement best describes the IPsec site-to-site VPN?",
+      "image": null,
+      "details": {
+        "choices": [
+          "The VPN provides remote access and connects individual users to the headquarter network",
+          "The VPN gateway performs network address translation and then transmits outbound traffic destined for the \ninternet trough a VPN tunnel",
+          "The VPN gateway encapsulates and encrypts outbound traffic and transmits it through a VPN tunnel over \nthe internet to other end devices",
+          "The VPN provides access to roaming users and establishes connection wiith corporate IT resouces"
+        ],
+        "correct": [2]
+      }
+    }
+  ]
+}

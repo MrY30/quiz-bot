@@ -1,0 +1,699 @@
+{
+  "title": "CCNA (200-301) 001-438",
+  "description": "CCNA Networking Exam",
+  "questions": [
+    {
+      "id": 313,
+      "type": "matching_pairing",
+      "question": "Drag and drop the device behaviors from the left onto the matching HSRP state on the right.",
+      "image": null,
+      "details": {
+        "pairs": [
+          {
+            "left": "Active",
+            "correctRight": "is forwarding packets"
+          },
+          {
+            "left": "Learn",
+            "correctRight": "is waiting to hear from the neighbor device"
+          },
+          {
+            "left": "Listen",
+            "correctRight": "is transmitting and receiving hello packets"
+          },
+          {
+            "left": "Speak",
+            "correctRight": "has heard from the neighbor device and is receiving hello packets"
+          },
+          {
+            "left": "Standby",
+            "correctRight": "is ready to forward packets if the device that is currently forwarding packets fails"
+          }
+        ]
+      }
+    },
+    {
+      "id": 314,
+      "type": "matching_pairing",
+      "question": "An engineer is configuring an encrypted password for the enable command on a router where the local user database has already been configured. Drag and drop from the left into the correct sequence on the right. Not all commands are used.",
+      "image": null,
+      "details": {
+        "pairs": [
+          {
+            "left": "enable",
+            "correctRight": "first"
+          },
+          {
+            "left": "configure terminal",
+            "correctRight": "second"
+          },
+          {
+            "left": "enable secret $hf!@4fs",
+            "correctRight": "third"
+          },
+          {
+            "left": "exit",
+            "correctRight": "fourth"
+          }
+        ],
+        "distractors": ["line vty 0 4", "service password-encryption"]
+      }
+    },
+    {
+      "id": 315,
+      "type": "matching_grouping",
+      "question": "Drag and drop the Ansible features from the left to the right. Not all features are used.",
+      "image": null,
+      "details": {
+        "groups": ["feature"],
+        "items": [
+          {
+            "item": "executes modules via SSH by default",
+            "correctGroup": "feature"
+          },
+          {
+            "item": "uses the YAML language",
+            "correctGroup": "feature"
+          },
+          {
+            "item": "pushes configurations to the client",
+            "correctGroup": "feature"
+          },
+          {
+            "item": "operates without agents",
+            "correctGroup": "feature"
+          }
+        ],
+        "distractors": [
+          "uses agents to manage hosts",
+          "requires clients to pull configurations from the server"
+        ]
+      }
+    },
+    {
+      "id": 316,
+      "type": "matching_pairing",
+      "question": "Drag and drop the IPv6 addresses from the left onto the corresponding address type on the right.",
+      "image": null,
+      "details": {
+        "pairs": [
+          {
+            "left": "2001:db8:600d:cafe::123",
+            "correctRight": "Global Unicast"
+          },
+          {
+            "left": "fe80::a00:27ff:feeb:89aa",
+            "correctRight": "Link-Local Unicast"
+          },
+          {
+            "left": "ff05::1:3",
+            "correctRight": "Multicast"
+          },
+          {
+            "left": "fcba:926a:e8e:7a25:b1:c6d2:1a76:8fdc",
+            "correctRight": "Unique Local"
+          }
+        ]
+      }
+    },
+    {
+      "id": 317,
+      "type": "matching_pairing",
+      "question": "Drag and drop the attack-mitigation technique from the left onto the types of attack that they mitigate on the right",
+      "image": null,
+      "details": {
+        "pairs": [
+          {
+            "left": "configure the native VLAN with a nondefault VLAN ID",
+            "correctRight": "802.1q double-tagging VLAN-hopping attack"
+          },
+          {
+            "left": "configure DHCP snooping",
+            "correctRight": "MAC flooding attack"
+          },
+          {
+            "left": "configure 802.1x authenticate",
+            "correctRight": "man-in-the-middle spoofing attack"
+          },
+          {
+            "left": "disable DTP",
+            "correctRight": "switch-spoofing VLAN-hopping attack"
+          }
+        ]
+      }
+    },
+    {
+      "id": 318,
+      "type": "matching_pairing",
+      "question": "Refer to the exhibit A packet is destined for 192.168.20.108. Drag and drop the parameters of the destination route from the left onto the routing table components they represent on the right. Not all parameters are used",
+      "image": "img/318.png",
+      "details": {
+        "pairs": [
+          {
+            "left": "/29",
+            "correctRight": "Subnet Prefix"
+          },
+          {
+            "left": "90",
+            "correctRight": "Administrative Distance"
+          },
+          {
+            "left": "40",
+            "correctRight": "Metric/Cost"
+          }
+        ],
+        "distractors": ["28", "25", "/27", "110"]
+      }
+    },
+    {
+      "id": 319,
+      "type": "matching_grouping",
+      "question": "Drag and drop the TCP or UDP details from the left onto corresponding protocols on the right",
+      "image": null,
+      "details": {
+        "groups": ["TCP", "UDP"],
+        "items": [
+          {
+            "item": "sends data in a specific order",
+            "correctGroup": "TCP"
+          },
+          {
+            "item": "requires an established connection",
+            "correctGroup": "TCP"
+          },
+          {
+            "item": "supports web browsing",
+            "correctGroup": "TCP"
+          },
+          {
+            "item": "suited for live streaming",
+            "correctGroup": "UDP"
+          },
+          {
+            "item": "retransmission is unsupported",
+            "correctGroup": "UDP"
+          },
+          {
+            "item": "tolerates packet loss",
+            "correctGroup": "UDP"
+          }
+        ],
+        "distractors": []
+      }
+    },
+    {
+      "id": 320,
+      "type": "matching_grouping",
+      "question": "Drag and drop the TCP and UDP characteristics from the left onto the supporting protocols on the right. Not all options are used.",
+      "image": null,
+      "details": {
+        "groups": ["TCP", "UDP"],
+        "items": [
+          {
+            "item": "uses sequence numbers",
+            "correctGroup": "TCP"
+          },
+          {
+            "item": "relies on acknowledgment packets",
+            "correctGroup": "TCP"
+          },
+          {
+            "item": "ensures data integrity",
+            "correctGroup": "TCP"
+          },
+          {
+            "item": "supports real-time applications",
+            "correctGroup": "UDP"
+          },
+          {
+            "item": "connectionless at transport layer",
+            "correctGroup": "UDP"
+          },
+          {
+            "item": "minimal error checking",
+            "correctGroup": "UDP"
+          }
+        ],
+        "distractors": ["operates on OSI Layer 5"]
+      }
+    },
+    {
+      "id": 321,
+      "type": "matching_grouping",
+      "question": "Drag and drop the statements about networking from the left onto the corresponding networking types on the right. Not all statements are used",
+      "image": null,
+      "details": {
+        "groups": ["Controller-Based Networking", "Traditional Networking"],
+        "items": [
+          {
+            "item": "This type deploys a consistent configuration across multiple devices.",
+            "correctGroup": "Controller-Based Networking"
+          },
+          {
+            "item": "This type requires a distributed management plane.",
+            "correctGroup": "Controller-Based Networking"
+          },
+          {
+            "item": "A distributed control plane is needed.",
+            "correctGroup": "Traditional Networking"
+          },
+          {
+            "item": "Northbound APIs interact with end devices.",
+            "correctGroup": "Traditional Networking"
+          }
+        ],
+        "distractors": ["Southbound APIs are used to apply configurations."]
+      }
+    },
+    {
+      "id": 322,
+      "type": "matching_grouping",
+      "question": "Drag and drop the statements about AAA from the left onto the corresponding AAA services on the right. Not all options are used.",
+      "image": null,
+      "details": {
+        "groups": ["Accounting", "Authorization"],
+        "items": [
+          {
+            "item": "It tracks the services that a user is using.",
+            "correctGroup": "Accounting"
+          },
+          {
+            "item": "It records the amount of network resources consumed by the user.",
+            "correctGroup": "Accounting"
+          },
+          {
+            "item": "It restricts the CLI commands that a user is able to perform.",
+            "correctGroup": "Authorization"
+          },
+          {
+            "item": "It assigns per-user attributes.",
+            "correctGroup": "Authorization"
+          }
+        ],
+        "distractors": [
+          "It permits and denies login attempts.",
+          "It supports local, PPP, RADIUS, and TACACS+ options."
+        ]
+      }
+    },
+    {
+      "id": 323,
+      "type": "matching_grouping",
+      "question": "Drag and drop the Cisco Wireless LAN Controller security settings from the left onto the correct security mechanism categories on the right.",
+      "image": null,
+      "details": {
+        "groups": [
+          "Layer 2 Security Mechanisms",
+          "Layer 3 Security Mechanisms (for WLAN)"
+        ],
+        "items": [
+          {
+            "item": "WPA+WPA2",
+            "correctGroup": "Layer 2 Security Mechanisms"
+          },
+          {
+            "item": "802.1X",
+            "correctGroup": "Layer 2 Security Mechanisms"
+          },
+          {
+            "item": "web policy",
+            "correctGroup": "Layer 3 Security Mechanisms (for WLAN)"
+          },
+          {
+            "item": "Passthrough",
+            "correctGroup": "Layer 3 Security Mechanisms (for WLAN)"
+          }
+        ],
+        "distractors": []
+      }
+    },
+    {
+      "id": 324,
+      "type": "matching_pairing",
+      "question": "Refer to the exhibit. Drag and drop the learned prefixes from the left onto the subnet masks on the right.",
+      "image": "img/324.png",
+      "details": {
+        "pairs": [
+          {
+            "left": "172.16.4.0",
+            "correctRight": "255.255.254.0"
+          },
+          {
+            "left": "172.16.2.128",
+            "correctRight": "255.255.255.128"
+          },
+          {
+            "left": "172.16.3.64",
+            "correctRight": "255.255.255.224"
+          },
+          {
+            "left": "172.16.3.128",
+            "correctRight": "255.255.255.240"
+          },
+          {
+            "left": "172.16.3.192",
+            "correctRight": "255.255.255.248"
+          }
+        ],
+        "distractors": []
+      }
+    },
+    {
+      "id": 325,
+      "type": "matching_grouping",
+      "question": "Drag and drop the statements about networking from the left onto the corresponding networking types on the right.",
+      "image": null,
+      "details": {
+        "groups": ["Traditional Networking", "Controller-Based Networking"],
+        "items": [
+          {
+            "item": "New devices are configured using the physical infrastructure.",
+            "correctGroup": "Traditional Networking"
+          },
+          {
+            "item": "This type requires a distributed control plane.",
+            "correctGroup": "Traditional Networking"
+          },
+          {
+            "item": "This type allows better control over how networks work and how networks are configured.",
+            "correctGroup": "Controller-Based Networking"
+          },
+          {
+            "item": "This type enables networks to integrate with applications through APIs.",
+            "correctGroup": "Controller-Based Networking"
+          },
+          {
+            "item": "This type provisions resources from a centralized location.",
+            "correctGroup": "Controller-Based Networking"
+          }
+        ],
+        "distractors": []
+      }
+    },
+    {
+      "id": 326,
+      "type": "matching_pairing",
+      "question": "Refer to the exhibit. An engineer is tasked with verifying network configuration parameters on a client workstation to report back to the team lead. Drag and drop the node identifiers from the left onto the network parameters on the right. Not all values are used.",
+      "image": "img/326.png",
+      "details": {
+        "pairs": [
+          {
+            "left": "192.168.1.255",
+            "correctRight": "broadcast address"
+          },
+          {
+            "left": "192.168.1.1",
+            "correctRight": "default gateway"
+          },
+          {
+            "left": "192.168.1.20",
+            "correctRight": "host IP address"
+          },
+          {
+            "left": "192.168.1.254",
+            "correctRight": "last assignable IP address in the subnet"
+          },
+          {
+            "left": "B8-76-3F-7C-57-DF",
+            "correctRight": "MAC address"
+          }
+        ],
+        "distractors": []
+      }
+    },
+    {
+      "id": 327,
+      "type": "matching_pairing",
+      "question": "Drag and drop the AAA terms from the left onto the descriptions on the right.",
+      "image": null,
+      "details": {
+        "pairs": [
+          {
+            "left": "accounting",
+            "correctRight": "tracks activity"
+          },
+          {
+            "left": "CoA",
+            "correctRight": "updates session attributes"
+          },
+          {
+            "left": "authorization",
+            "correctRight": "verifies access rights"
+          },
+          {
+            "left": "authentication",
+            "correctRight": "verifies identity"
+          }
+        ],
+        "distractors": []
+      }
+    },
+    {
+      "id": 328,
+      "type": "matching_grouping",
+      "question": "Drag and drop the descriptions of AAA services from the left onto the corresponding services on the right",
+      "image": null,
+      "details": {
+        "groups": ["Accounting", "Authentication", "Authorization"],
+        "items": [
+          {
+            "item": "log session statistics",
+            "correctGroup": "Accounting"
+          },
+          {
+            "item": "records user commands",
+            "correctGroup": "Accounting"
+          },
+          {
+            "item": "validates user credentials",
+            "correctGroup": "Authentication"
+          },
+          {
+            "item": "secures access to routers",
+            "correctGroup": "Authentication"
+          },
+          {
+            "item": "limits the user's access permissions",
+            "correctGroup": "Authorization"
+          },
+          {
+            "item": "allows the user to change to enable mode",
+            "correctGroup": "Authorization"
+          }
+        ],
+        "distractors": []
+      }
+    },
+    {
+      "id": 329,
+      "type": "matching_grouping",
+      "question": "Drag the descriptions of device management from the left onto the types of device management on the right.",
+      "image": null,
+      "details": {
+        "groups": [
+          "Cisco DNA Center Device Management",
+          "Traditional Device Management"
+        ],
+        "items": [
+          {
+            "item": "monitors the cloud for software updates",
+            "correctGroup": "Cisco DNA Center Device Management"
+          },
+          {
+            "item": "uses CLI templates to apply a consistent\nconfiguration to multiple devices at an individual\nlocation",
+            "correctGroup": "Cisco DNA Center Device Management"
+          },
+          {
+            "item": "uses NetFlow to analyze potential security threats\nthroughout the network and take appropriate action\non that traffic",
+            "correctGroup": "Cisco DNA Center Device Management"
+          },
+          {
+            "item": "implements changes via an SSH terminal",
+            "correctGroup": "Traditional Device Management"
+          },
+          {
+            "item": "manages device configurations on a per-device\nbasis",
+            "correctGroup": "Traditional Device Management"
+          },
+          {
+            "item": "security is managed near the perimeter of the\nnetwork with firewalls, VPNs, and IPS",
+            "correctGroup": "Traditional Device Management"
+          }
+        ]
+      }
+    },
+    {
+      "id": 330,
+      "type": "matching_grouping",
+      "question": "Drag and drop the characteristics of transport layer protocols from the left onto the corresponding protocols on the right.",
+      "image": null,
+      "details": {
+        "groups": ["TCP", "UDP"],
+        "items": [
+          {
+            "item": "provides support for retransmission of lost packets",
+            "correctGroup": "TCP"
+          },
+          {
+            "item": "guarantees packet delivery",
+            "correctGroup": "TCP"
+          },
+          {
+            "item": "uses a 32-bit sequence number",
+            "correctGroup": "TCP"
+          },
+          {
+            "item": "ideal for voice traffic",
+            "correctGroup": "UDP"
+          },
+          {
+            "item": "requires less computer resources",
+            "correctGroup": "UDP"
+          },
+          {
+            "item": "offers minimal overhead within a packet",
+            "correctGroup": "UDP"
+          }
+        ]
+      }
+    },
+    {
+      "id": 331,
+      "type": "matching_grouping",
+      "question": "Drag and drop the IPv6 addresses from the left onto the corresponding address types on the right.",
+      "image": null,
+      "details": {
+        "groups": [
+          "Global Unicast",
+          "Link-Local Unicast",
+          "Multicast",
+          "Unique Local"
+        ],
+        "items": [
+          {
+            "item": "3ffe:e54d:620:a87a::f00d",
+            "correctGroup": "Global Unicast"
+          },
+          {
+            "item": "fe80::a00:27ff:feeb:89aa",
+            "correctGroup": "Link-Local Unicast"
+          },
+          {
+            "item": "ff05::1:3",
+            "correctGroup": "Multicast"
+          },
+          {
+            "item": "fd6d:c83b:5cef:b6b2::1",
+            "correctGroup": "Unique Local"
+          }
+        ]
+      }
+    },
+    {
+      "id": 332,
+      "type": "matching_pairing",
+      "question": "Drag and drop the threat-mitigation techniques from the left onto the types of threat or attack they mitigate on the right.",
+      "image": null,
+      "details": {
+        "pairs": [
+          {
+            "left": "configure a VLAN access control list",
+            "correctRight": "802.1q double tagging"
+          },
+          {
+            "left": "configure the dynamic ARP inspection feature",
+            "correctRight": "ARP spoofing"
+          },
+          {
+            "left": "configure the root guard feature",
+            "correctRight": "unwanted superior BPDUs"
+          },
+          {
+            "left": "configure the BPDU guard feature",
+            "correctRight": "unwanted BPDUs on Port-Fast enabled interfaces"
+          }
+        ]
+      }
+    },
+    {
+      "id": 333,
+      "type": "matching_pairing",
+      "question": "Drag and drop the management connection types from the left onto the definitions on the right.",
+      "image": null,
+      "details": {
+        "pairs": [
+          {
+            "left": "Telnet",
+            "correctRight": "supports clear-text connections\nto the controller CLI"
+          },
+          {
+            "left": "SSH",
+            "correctRight": "supports encrypted access to CLI\nand a secure channel for data transfer"
+          },
+          {
+            "left": "console",
+            "correctRight": "supports physical connections over\na serial cable"
+          },
+          {
+            "left": "HTTPS",
+            "correctRight": "supports secure web access\nfor management of the device"
+          }
+        ]
+      }
+    },
+    {
+      "id": 334,
+      "type": "matching_pairing",
+      "question": "Refer to the exhibit. Drag and drop the learned prefixes from the left onto the preferred route methods from which they were learned on the right.",
+      "image": "img/334.png",
+      "details": {
+        "pairs": [
+          {
+            "left": "207.165.200.244/30",
+            "correctRight": "static"
+          },
+          {
+            "left": "192.168.2.0/24",
+            "correctRight": "EIGRP"
+          },
+          {
+            "left": "192.168.1.0/24",
+            "correctRight": "OSPF"
+          },
+          {
+            "left": "172.16.2.0/24",
+            "correctRight": "RIP"
+          }
+        ],
+        "distractors": ["207.165.200.248/30"]
+      }
+    },
+    {
+      "id": 335,
+      "type": "matching_grouping",
+      "question": "Drag and drop the TCP or UDP details from the left onto their corresponding protocols on the right.",
+      "image": null,
+      "details": {
+        "groups": ["TCP", "UDP"],
+        "items": [
+          {
+            "item": "used to reliably share files between\ndevices",
+            "correctGroup": "TCP"
+          },
+          {
+            "item": "supports reliable data transmission",
+            "correctGroup": "TCP"
+          },
+          {
+            "item": "appropriate for streaming\noperations with minimal latency",
+            "correctGroup": "UDP"
+          },
+          {
+            "item": "provides best-effort service",
+            "correctGroup": "UDP"
+          }
+        ]
+      }
+    }
+  ]
+}
